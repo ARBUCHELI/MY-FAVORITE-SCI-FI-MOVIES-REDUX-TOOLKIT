@@ -1,11 +1,35 @@
-html {
-    background-color: #002439;
-}
+html { 
+    background: url('https://raw.githubusercontent.com/ARBUCHELI/BOOK-PROJECT-IMAGES/master/bookstore.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  }
  
 .h1-header {
     font-family: "Oxygen", sans-serif;
-    color: #78cce2;
+    color: white;
     font-size: 2em;
     font-weight: 900;
     text-align: center;
+    background-color: #36486b;
+    margin: auto;
+    padding: 1em;
+    border: 1px transparent solid;
+    border-radius: 5px;
+}
+
+.app-footer {
+  font-family: "Oxygen", sans-serif;
+    color: white;
+    margin: auto;
+    margin-top: 3em;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    background-color: #36486b;
+    padding: 1em;
+    border: 1px transparent solid;
+    border-radius: 5px;
 }
